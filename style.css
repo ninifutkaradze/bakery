@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+  /* Basic styles */
+  #black {
+    color: black;
+  }
+  #white {
+    color: white;
+  }
+  .title {
+    font-family: Ultra;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+  }
+  .text-description {
+    text-transform: uppercase;
+    font-family: Oswald;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+  }
+  
+.dark-section {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  background-color: #171b1b;
+  padding-top: 251px;
+  padding-bottom: 251px;
+  color: white;
+}
+.dark-bg {
+  background-color: #171b1b;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 190px;
+}
+.orange-bg {
+  position: relative;
+  overflow: hidden;
+  background-color: #f5d3ab;
+  z-index: 1;
+  padding-bottom: 190px;
+  
+  .orange-section {
+    position: relative;
+  
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 150px 0px;
+  }
+  .flex-column {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+  }
+  .header-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    padding: 0px 135px;
+  }
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-top: 10px;
+  }
+  .left-nav {
+    display: flex;
+  }
+  .logo-text a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .list-style a {
+    text-decoration: none;
+    color: #fff;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .contact-btn {
+    box-sizing: border-box;
+    border: 1px solid #ffffff4b;
+    display: flex;
+    padding: 11px 41px;
+  }
+  
+  .contact-btn button {
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    background: none;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 16px;
+  }
+  .contact-btn:hover {
+    cursor: pointer;
+    background-color: #ffffff4b;
+  }
+  .first-section p {
+    max-width: 470px;
+    font-family: DM Sans;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  /* header-imgs */
+  .green-shape {
+    position: absolute;
+    right: 265px;
+    top: 165px;
+  }
+  .abstract-center-img {
+    position: absolute;
+    right: 135px;
+    top: 170px;
+  }
+  .bread-img {
+    position: absolute;
+    top: 0;
+    right: 300px;
+  }
+  .orange-circle {
+    position: absolute;
+    right: 135px;
+    top: 230px;
+  }
+  .person-vector {
+    position: absolute;
+    right: 135px;
+    top: 200px;
+}
+.seeds {
+  position: absolute;
+  right: 550px;
+  top: 210px;
+}
+.top {
+  position: absolute;
+  top: 0;
+  right: 20%;
+}
+.bottom {
+  position: absolute;
+  bottom: -60px;
+  left: 40%;
+  z-index: 0;
+}
+.right {
+    position: absolute;
+  right: 0;
+  top: 30%;
+}
+
+/* about us section */
+
+.scroll-box {
+  display: flex;
+  gap: 30px;
+}
+.scroll {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.scroll-text p {
